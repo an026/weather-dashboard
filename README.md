@@ -1,29 +1,24 @@
-# Web Development Project 5 - Weather Dashboard
+# Web Development Project 6 - Weather Dashboard
 
 Submitted by: Allison Vu
 
 This web app: Weather app dashboard for NYC!
 
-Time spent: 15 hours spent in total
+Time spent: 3 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] **The list displays a list of data fetched using an API call**
-- [X] **Data uses the useEffect React hook and async/await syntax**
-- [X] **The app dashboard includes at least three summary statistics about the data such as**
-  - [X] *Location*
-  - [X] *Average Moon Phase*
-  - [X] *Typical Moon Rise Time*
-- [X] **A search bar allows the user to search for an item in the fetched data**
-- [X] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
+- [X] **The app includes at least one unique chart developed using the fetched data that tell an interesting story**
+- [X] **Clicking on an item in the list view displays more details about it**
+- [X] **Clicking on an item has a direct, unique link to that item's detail view page**
+
 
 The following **optional** features are implemented:
 
-- [X] Multiple filters can be applied simultaneously
-- [X] Filters use different input types such as a text input, a selection, or a slider
-- [X] The user can enter specific bounds for filter values
+- [ ] The site's customized dashboard contains more content that explains what is interesting about the data
+- [ ] The site allows users to toggle between different data visualizations
 
 The following **additional** features are implemented:
 
@@ -33,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXZzdWJnMG5mbmliYnhqaWs0eGEwN2lnNWduZmZpZXk4N2hhMm94byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tTL2km7ApepuzCRnWr/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmR0Mjhibm44bmF6Mjl2a3F2czc4emg5OXp5NmY4NjEydzJzcHFiZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/I9G0Km0dbGEFPBhnMw/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap
