@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Link } from "react-router-dom";
 import './List.css';
 
 const List = (props) => {
@@ -63,7 +64,7 @@ const List = (props) => {
                   <td>{item.datetime}</td>
                   <td>{item.feelslikemin + ' °F'}</td>
                   <td>{item.moonrise}</td>
-                  <td>{item.moonphase}</td>
+                  <td><Link to={item.datetime}> &nbsp;&nbsp;&nbsp;&nbsp;🔗 </Link></td>
                 </tr> 
               ) : <tr><td>{'No Data'}</td></tr>
           }

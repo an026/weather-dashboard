@@ -3,7 +3,9 @@ import React, { useState, useEffect } from 'react';
 import Sidebar from './Components/Sidebar.jsx';
 // import './App.css';
 // import React, { useState, useEffect } from 'react';
-import Dashboard from './Dashboard.jsx';
+import { useRoutes } from 'react-router-dom';
+import Dashboard from './pages/Dashboard'
+import DetailView from './pages/DetailView'
 
 const App = () => {
 
@@ -31,6 +33,17 @@ const App = () => {
 
   }, []);
 
+  let element = useRoutes([
+    {
+      path: "/",
+      element:<Dashboard data={data}/>
+    },
+    {
+      path:"/:datetime",
+      element: <DetailView data={data} />
+    }
+  ]);
+
 
   return ( 
 
@@ -39,7 +52,7 @@ const App = () => {
         <Sidebar />
       </div>
 
-      <Dashboard data={data}/>
+      {element}
       
     </div>
 

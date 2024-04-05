@@ -2,7 +2,7 @@
 .List {
 
     width: 100vw;
-    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.154);
+    box-shadow: 0 15px 25px rgba(33, 31, 31, 0.449);
     font-size: medium;
     border-radius: 24px;
     backdrop-filter: blur(4px);
@@ -31,7 +31,7 @@
 .btn {
     color:white;
     font-family: 'Avenir';
-    background-color: darkslateblue;
+    background-color: rgba(205, 78, 247, 0.873);
 }
 
 th {

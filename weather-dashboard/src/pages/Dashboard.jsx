@@ -1,6 +1,7 @@
 import React from 'react';
-import Card from './Components/Card.jsx';
-import List from './Components/List.jsx'
+import Card from '../Components/Card.jsx';
+import List from '../Components/List.jsx'
+import Chart from '../Components/Chart' 
 
 
 const Dashboard = ({data}) => {
@@ -14,6 +15,7 @@ const Dashboard = ({data}) => {
             </div>
             <div className="dashboard-section">
                 <List data={data}/>
+                <Chart data={data}/>
             </div>
         </div>  
     )
